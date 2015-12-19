@@ -1,0 +1,3 @@
+zoom( float zoomLevel ) {
+    StaticRef.getCamera().setZoom2D( zoomLevel );
+}

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 14.0-b16 (Sun Microsystems Inc.)
+Main-Class: Starter
+X-COMMENT: Main-Class will be added automatically by build
+Class-Path: lib/EasyWay45_project.jar lib/bsh-2.0b4.jar lib/jdom.jar lib/jinput.jar lib/lwjgl.jar lib/lwjgl_devil.jar lib/lwjgl_fmod3.jar lib/lwjgl_test.jar lib/lwjgl_util.jar lib/lwjgl_util_applet.jar lib/lwjgl-debug.jar lib/nimrodlf.jar nativelibrary/windows nativelibrary/linux

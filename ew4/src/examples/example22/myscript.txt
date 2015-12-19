@@ -1,0 +1,6 @@
+img = getTexture("images/apple.png");
+spr = new Sprite(img);
+spr.setXY(100,100);
+
+import examples.example08.ClickableSprite;
+new ClickableSprite(400,400,img);

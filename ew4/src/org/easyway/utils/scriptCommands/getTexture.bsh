@@ -1,0 +1,3 @@
+Texture getTexture(path) {
+    return Texture.getTexture(path);
+}

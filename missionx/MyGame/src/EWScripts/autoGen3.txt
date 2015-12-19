@@ -1,0 +1,8 @@
+System.out.println("AUTOGEN3 STARTED: "+mygame.AuxVars.ia+" - "+mygame.AuxVars.ib+", Step="+mygame.AuxVars.ic);
+for(int i=mygame.AuxVars.ia;i<mygame.AuxVars.ib;i+=mygame.AuxVars.ic){
+    double r=Math.random();
+    System.out.println("AUTOGEN3: "+r+" at "+i);
+    if(r<0.5){if(Math.random()<0.5) new mygame.logic.enemy.Enemy6((float)i,(float)640,30); else new mygame.logic.enemy.Enemy7((float)i,(float)0,30);}else
+    if(r<0.85){ new mygame.logic.enemy.Enemy6((float)i,(float)256,30); new mygame.logic.enemy.Enemy7((float)i,(float)384,30);}
+}
+System.out.println("AUTOGEN3 EXECUTED");

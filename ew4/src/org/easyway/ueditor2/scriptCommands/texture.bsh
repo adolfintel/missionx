@@ -1,0 +1,5 @@
+// the return type is optional
+import org.easyway.objects.texture.Texture;
+Texture texture( String path ) {
+    return Texture.getTexture( path );
+}

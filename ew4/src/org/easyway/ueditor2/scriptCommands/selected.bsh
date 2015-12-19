@@ -1,0 +1,3 @@
+selected() {
+    return org.easyway.ueditor2.EditorCore.getInstance().getSelected();
+}

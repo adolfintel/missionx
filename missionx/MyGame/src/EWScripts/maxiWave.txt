@@ -1,0 +1,8 @@
+System.out.println("Generating Maxi Wave at"+mygame.AuxVars.ia);
+for(float i=0;i<640;i+=48){
+    double r=Math.random();
+    if(r<0.25) new mygame.logic.enemy.Enemy1((float)mygame.AuxVars.ia,i,15); else
+    if(r<0.5) new mygame.logic.enemy.Enemy2((float)mygame.AuxVars.ia,i,15); else
+    if(r<0.75) new mygame.logic.enemy.Enemy3((float)mygame.AuxVars.ia,i,15); else
+    new mygame.logic.enemy.Enemy4((float)mygame.AuxVars.ia,i,15);
+}

@@ -1,0 +1,4 @@
+mygame.CommonVar.difficulty*=1.2f;
+mygame.CommonVar.DIFF_EASY*=1.2f;
+mygame.CommonVar.DIFF_NORMAL*=1.2f;
+mygame.CommonVar.DIFF_HARD*=1.2f;

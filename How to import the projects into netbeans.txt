@@ -1,0 +1,5 @@
+This is an open source game, but to make changes to the source you first need to import 2 projects into netbeans (nb6.9 recommended):
+The first project is located into the ew4 folder, and that's the engine.
+The second project is located into the missionx folder, and that's the game.
+If netbeans complains about dependences,go to the properties of both the projects, remove all the jars imported by default and import all the jars located in the dependences folder. Do that for both the projects! If the MyGame project still complains, import ew4/EasyWay45_project/dist/EasyWay45_project.jar too.
+If you still have problems, you can contact me at this adress: dosse91@live.it

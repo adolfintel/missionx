@@ -1,0 +1,14 @@
+centerOn( org.easyway.interfaces.sprites.IPlain2D obj ) {
+    Camera camera = StaticRef.getCamera();
+    if (obj == null ) {
+        centerOn();
+    }
+    camera.x = obj.x + obj.width/2 - camera.width / 2;
+    camera.y = obj.y + obj.height/2 - camera.height / 2;
+}
+
+centerOn() {
+    Camera camera = StaticRef.getCamera();
+    camera.x = 0;
+    camera.y = 0;
+}

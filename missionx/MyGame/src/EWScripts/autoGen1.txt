@@ -1,0 +1,10 @@
+System.out.println("AUTOGEN1 STARTED: "+mygame.AuxVars.ia+" - "+mygame.AuxVars.ib+", Step="+mygame.AuxVars.ic);
+for(int i=mygame.AuxVars.ia;i<mygame.AuxVars.ib;i+=mygame.AuxVars.ic){
+    double r=Math.random();
+    System.out.println("AUTOGEN1: "+r+" at "+i);
+    if(r<0.1) new mygame.logic.enemy.Enemy1((float)i,(float)(Math.random()*768),25); else
+    if(r<0.2) new mygame.logic.enemy.Enemy2((float)i,(float)(Math.random()*768),50); else
+    if(r<0.3) new mygame.logic.enemy.Enemy3((float)i,(float)(Math.random()*768),50); else
+    if(r<0.4) new mygame.logic.enemy.Enemy4((float)i,(float)(Math.random()*768),40);
+}
+System.out.println("AUTOGEN1 EXECUTED");
